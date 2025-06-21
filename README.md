@@ -1,17 +1,11 @@
-<table align="center">
-  <tr>
-    <td><img src="docs/icon_dice.png" alt="icon" width="40"/></td>
-    <td><h1>LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression</h1></td>
-  </tr>
-</table>
-
-<p align="center">
-  <a href="https://eedavidwu.github.io/">Haotian Wu</a>&nbsp;&nbsp;
-  <a href="https://gp-chen.github.io/">Gongpu Chen</a>&nbsp;&nbsp;
-  <a href="https://www.commsp.ee.ic.ac.uk/~pld/">Pier Luigi Dragotti</a>&nbsp;&nbsp;
-  <a href="https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/">Deniz Gündüz</a> <br/>
-  <strong>Imperial College London</strong>
-</p>
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
+                <img src="docs/icon_dice.png" alt="Icon" style="width:60px; vertical-align:middle; margin-right:10px;">  LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression</h1>      
+<p align='center' style="text-align:center;font-size:1.25em;">
+    <a href="https://eedavidwu.github.io/" target="_blank" style="text-decoration: none;">Haotian Wu</a>,&nbsp;
+    <a href="https://gp-chen.github.io/" target="_blank" style="text-decoration: none;">Gongpu Chen</a>,&nbsp;
+    <a href="https://www.commsp.ee.ic.ac.uk/~pld/" target="_blank" style="text-decoration: none;">Pier Luigi Dragotti</a>,&nbsp;
+    <a href="https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/" target="_blank" style="text-decoration: none;">Deniz Gündüz</a>,&nbsp;<br/>
+&nbsp;<strong>Imperial College London</strong><br/>
 
 <div align="center">
   <a href="https://arxiv.org/" target="_blank" rel="external nofollow noopener">
