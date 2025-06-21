@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression
+ [ICML 2025] LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression
 </h1>
 
 <p align="center">
