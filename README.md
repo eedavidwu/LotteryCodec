@@ -17,21 +17,13 @@
 
 ## 📣 Latest Updates
 - **[2025-06-21]** 📝 *LotteryCodec paper preprint is now available on [arXiv](https://arxiv.org/abs/your-link).*
-- **[2025-06-21]** 📝 *Additional resources such as intermediate results, baseline code is now available on [arXiv](https://arxiv.org/abs/your-link).*
-- **[2025-06-01]** 🎉 *LotteryCodec has been accepted to ICML 2025 as a **spotlight**!*
+- **[2025-06-21]** 📝 *Additional resources, such as intermediate results and baseline code, are now released on [resources](https://github.com/eedavidwu/LotteryCodec/blob/master/resource/README.md).*
+- **[2025-06-01]** 🎉 *LotteryCodec has been accepted to **ICML 2025** as a **Spotlight**!*
 
 ## 🔑 Key Takeaways
 
-- **LotteryCodec** introduces a novel 3D reasoning benchmark.  
-  🧠 **Task Definition**: Given a *past* 3D scene (e.g., point cloud, top-view image, scene captions) and a **context change description**, the goal is to *imagine* the updated scene after the change and answer questions based on that **hypothetical** scene state.
-
-- The benchmark includes **7,727 context changes** and **14,885 QA pairs** spanning **700 indoor scenes**.  
-  These changes are categorized into five types:  
-  1. **Movement** — Geometric transformations (e.g., translation, rotation)  
-  2. **Removal** — Objects taken away from the scene  
-  3. **Attribute** — Changes in object properties (e.g., color, open/closed state)  
-  4. **Addition** — New objects introduced into the scene  
-  5. **Replacement** — Existing objects substituted with different ones
+- **LotteryCodec** introduces a novel overfitted codec for low-complexity image compression.  
+  🧠 **Lottery Codec Hypothesis**: Given a *past* 3D scene (e.g., point cloud, top-view image, scene captions) and a **context change description**, the goal is to *imagine* the updated scene after the change and answer questions based on that **hypothetical** scene state.
 
 ![sicl](docs/static/fig1.png)
 
