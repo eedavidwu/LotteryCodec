@@ -1,0 +1,128 @@
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
+                <img src="docs/static/hypo_icon.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:10px;">  LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression</h1>      
+<p align='center' style="text-align:center;font-size:1.25em;">
+    <a href="https://eedavidwu.github.io/" target="_blank" style="text-decoration: none;">Haotian</a>,&nbsp;
+    <a href="https://gp-chen.github.io/" target="_blank" style="text-decoration: none;">Gongpu Chen</a>,&nbsp;
+    <a href="https://www.commsp.ee.ic.ac.uk/~pld/" target="_blank" style="text-decoration: none;">Pier Luigi Dragotti</a>,&nbsp;
+    <a href="https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/" target="_blank" style="text-decoration: none;">Deniz Gündüz</a>,&nbsp;
+&nbsp;<strong>Imperial College London</strong><br/>
+
+<div align="center">
+  <a href="https://arxiv.org/" target="_blank" rel="external nofollow noopener">
+  <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
+  <a href="https://matchlab-imperial.github.io/Hypo3D/" target="_blank" rel="external nofollow noopener">
+  <img src="https://eedavidwu.github.io/LotteryCodec/" alt="Project Page"></a>
+</div>
+</p>
+
+## 📣 Latest Updates
+- **[2025-06-21]** 📝 *LotteryCodec paper preprint is now available on [arXiv](https://arxiv.org/abs/your-link).*
+- **[2025-06-21]** 📝 *Additional resources such as intermediate results, baseline code is now available on [arXiv](https://arxiv.org/abs/your-link).*
+- **[2025-06-01]** 🎉 *LotteryCodec has been accepted to ICML 2025 as a spotlight!*
+
+## 🔑 Key Takeaways
+
+- **Hypo3D** introduces a novel 3D reasoning benchmark.  
+  🧠 **Task Definition**: Given a *past* 3D scene (e.g., point cloud, top-view image, scene captions) and a **context change description**, the goal is to *imagine* the updated scene after the change and answer questions based on that **hypothetical** scene state.
+
+- The benchmark includes **7,727 context changes** and **14,885 QA pairs** spanning **700 indoor scenes**.  
+  These changes are categorized into five types:  
+  1. **Movement** — Geometric transformations (e.g., translation, rotation)  
+  2. **Removal** — Objects taken away from the scene  
+  3. **Attribute** — Changes in object properties (e.g., color, open/closed state)  
+  4. **Addition** — New objects introduced into the scene  
+  5. **Replacement** — Existing objects substituted with different ones
+
+![sicl](docs/static/fig1.png)
+
+## About this code
+The Hypo3D codebase is written in Python and provides simple modules for benchmarking 10 Foundation models, including LLM, 2D VLMs, and 3D VLMs. The core module structure is as follows:
+```
+Hypo3D/
+├── LLM/                          # Storing scripts for LLM models that use scene captions as input for 3D scene processing.
+│   ├── GPT4o-text.               # Folder for evaluating GPT4o in text-only mode.
+│   ├── llama/                    # Folder for evaluating LLama3.2 3B.
+├── 2D-VLM/                       # Storing scripts for 2D-VLM models that use top-view maps as input for 3D scene processing.
+│   ├── Claude/                   # Folder for evaluating Claude 3.5 Sonnet.
+│   ├── GPT4o/                    # Folder for evaluating GPT4o in vison-language mode.
+│   ├── Qwen2-VL/                 # Folder for evaluating Qwen2-VL 7B and 72B.
+│   ├── llava-ov/                 # Folder for evaluating LLaVA-OV 7B and 72B.
+├── 3D-VLM/                       # Storing scripts for 2D-VLM models that use point cloud/multi-view images as input for 3D scene processing.
+│   ├── LLaVA-3D/                 # Folder for evaluating LLaVA-3D model 7B.
+│   └── LEO/ (coming soon)        # Folder for evaluating LEO model 7B.
+├── exp/                          # Experiemental results for various models.
+├── metric_compute.py             # Compute exact match/partial match for each context change category.
+├── ...
+
+```
+
+### Download the Hypo3D Benchmark
+1. Clone the repository recursively.
+   ```
+   git clone --recursive https://github.com/MatchLab-Imperial/Hypo3D.git
+   ```
+3. Download 3D scene representations in Hypo3D dataset
+   ```
+   git clone https://huggingface.co/datasets/MatchLab/Hypo3D
+   mv Hypo3D dataset # rename dataset folder
+   cd dataset
+   ```
+   Expected data folder format:
+   ```
+    dataset/
+    ├── LLM_data/                                          # Scene captions for Large Language Models (e.g., LLama3.2)
+    ├── 2D_VLM_data/                                       # Scene Top-View Maps for 2D Vision-Language Models (e.g., GPT4o)
+    │   ├── top_view_no_label_rotated/                     # Non-semantic top-view map.
+    │   ├── top_view_with_label_rotated/                   # Semantic top-view map.
+    ├── 3D_VLM_data/                                       # 3D Scene Data for 3D Vision-Language Models (e.g., LLaVA-3D)
+  
+    ```
+5. Complete the [form](https://forms.gle/w6NCaDjY9FzdSZFEA) to download Hypo3D dataset
+
+### 📊 Hypo3D: EM (Exact Match) / PM (Partial Match) Accuracy of Foundation Models
+
+| Model Family                    | Model                  | EM (%) | PM (%) |
+|--------------------------------|------------------------|--------|--------|
+| **LLM (Scene Caption)**        | Llama-3.2 3B           | 26.08  | 29.91  |
+|                                | GPT-4o API (Text)      | **35.54**  | **39.65**  |
+| **2D VLM (Non-Semantic Map)**  | Qwen2-VL 7B            | 29.68  | 34.47  |
+|                                | Qwen2-VL 72B           | 33.39  | 37.51  |
+|                                | LLaVA-OV 7B            | 30.62  | 34.34  |
+|                                | LLaVA-OV 72B           | **36.38**  | **40.13**  |
+|                                | Claude 3.5 Sonnet API  | 20.70  | 30.12  |
+|                                | GPT-4o API             | 33.58  | 36.75  |
+| **2D VLM (Semantic Map)**      | Qwen2-VL 7B            | 34.40  | 38.91  |
+|                                | Qwen2-VL 72B           | 42.45  | 48.25  |
+|                                | LLaVA-OV 7B            | 38.93  | 43.51  |
+|                                | LLaVA-OV 72B           | 43.81  | 46.83  |
+|                                | Claude 3.5 Sonnet API  | 41.36  | 51.59  |
+|                                | GPT-4o API             | **45.50**  | **48.82**  |
+| **3D VLM (RGB-D Video/Point Cloud)**       | LEO 7B                 | 14.83  | 22.40  |
+|                                | LLaVA-3D 7B            | **31.56**  | **35.23**  |
+| **Human**                      |                        | 91.00  | 92.50  |
+
+
+## Contact
+- Ye Mao: ye.mao21@imperial.ac.uk
+
+Please open an issue or submit a pull request for issues, or contributions.
+
+## 💼 License
+
+<a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+</a>
+
+## Citation
+
+If you find our benchmark is helpful, please cite our paper:
+
+```
+@article{mao2025hypo3d,
+  title={Hypo3D: Exploring Hypothetical Reasoning in 3D},
+  author={Mao, Ye and Luo, Weixun and Jing, Junpeng and Qiu, Anlan and Mikolajczyk, Krystian},
+  journal={arXiv preprint arXiv:2502.00954},
+  year={2025}
+}
+```
+
