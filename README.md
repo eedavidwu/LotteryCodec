@@ -49,25 +49,24 @@
 </p>
 
 ## About this code
-The Hypo3D codebase is written in Python and provides simple modules for benchmarking 10 Foundation models, including LLM, 2D VLMs, and 3D VLMs. The core module structure is as follows:
+The LotteryCodec codebase is written in Python and provides fast configurations for the training. The core module structure is as follows:
 ```
-Hypo3D/
-├── LLM/                          # Storing scripts for LLM models that use scene captions as input for 3D scene processing.
-│   ├── GPT4o-text.               # Folder for evaluating GPT4o in text-only mode.
-│   ├── llama/                    # Folder for evaluating LLama3.2 3B.
-├── 2D-VLM/                       # Storing scripts for 2D-VLM models that use top-view maps as input for 3D scene processing.
-│   ├── Claude/                   # Folder for evaluating Claude 3.5 Sonnet.
-│   ├── GPT4o/                    # Folder for evaluating GPT4o in vison-language mode.
-│   ├── Qwen2-VL/                 # Folder for evaluating Qwen2-VL 7B and 72B.
-│   ├── llava-ov/                 # Folder for evaluating LLaVA-OV 7B and 72B.
-├── 3D-VLM/                       # Storing scripts for 2D-VLM models that use point cloud/multi-view images as input for 3D scene processing.
-│   ├── LLaVA-3D/                 # Folder for evaluating LLaVA-3D model 7B.
-│   └── LEO/ (coming soon)        # Folder for evaluating LEO model 7B.
-├── exp/                          # Experiemental results for various models.
-├── metric_compute.py             # Compute exact match/partial match for each context change category.
-├── ...
+LotteryCodec/
+├── dataset/                          # Folder for dataset.
+│   ├── CLIC2020.                
+│   ├── Kodak/                   
+├── enc/                          # Folder for encoding functions
+│   ├── training/                
+│   ├── utils/                 
+├── models/                       # Main model.
+│   └── model.py                  
+├── resource/                       # Resources for the baselines.
+├── results            # Experimental results for various models.
+├── utils            # Code for sub-model and function such as quantization/ARM/...
+├── train.py
 
 ```
+The code is heavily based on the Cool-Chic project, an outstanding open-source work. For additional resources and proper attribution, please refer to their project page:  <a href="https://github.com/Orange-OpenSource/Cool-Chic">Cool-Chic</a>  
 
 ## Contact
 - Haotian Wu: haotian.wu17@imperial.ac.uk
