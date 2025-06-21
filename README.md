@@ -33,9 +33,8 @@
 
 - **LotteryCodec** introduces a novel overfitted codec for low-complexity image compression.
 
----
 <p align="center">
-  <img src="docs/LCH.png" alt="From AE to LotteryCodec" width="600"/>
+  <img src="docs/LCH.png" alt="From AE to LotteryCodec" width="1000"/>
 </p>
 
 <p align="center">
