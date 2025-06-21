@@ -31,38 +31,30 @@
 
 ## 🔑 Key Takeaways
 
-- **LotteryCodec** introduces a novel overfitted codec for low-complexity image compression.  
-  🧠 **Lottery Codec Hypothesis**:  <section class="section" style="padding-top: 1.5rem; padding-bottom: 1.5rem;">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column">
-          <div class="box" style="background-color: white; border-left: 5px solid #3273dc; padding: 2rem;">
-            <h2 class="title is-4 has-text-primary has-text-centered" style="margin-bottom: 1rem;">
-              💡 <strong>Lottery Codec Hypothesis</strong>
-            </h2>
-            <p style="font-size: 18px; line-height: 1.6; text-align: justify;margin-bottom: 0.75rem;">
-              Let \( d \) denote a distortion function and \( H \) the entropy function. 
-              For any overfitted image codec \( g_{\mathbf{W}}(\mathbf{z}) \), 
-              there exists an over-parameterized and randomly initialized network \( g_{\mathbf{W'}} \) 
-              with \( |\mathbf{W'}| > |\mathbf{W}| \) and a pair \( (\mathbf{\tau'}, \mathbf{z'}) \) as the ‘winning tickets’, 
-              such that \( d(\mathbf{S}, \mathbf{S}') \le d(\mathbf{S}, \mathbf{S}^*) \) and 
-              \( H(\mathbf{\hat{z}}') = H(\mathbf{\hat{z}}) \).
-            </p>
-            <p>
+- **LotteryCodec** introduces a novel overfitted codec for low-complexity image compression.
 
-            </p>
-            <div class="image-container">
-              <img src="Problem_formulation.png" alt="Description of the image" style="max-width: 100%; height: auto;margin-bottom: 0.5rem;">
-              <p class="has-text-centered" style="font-size: 20px; font-style: italic; color: #444;">
-                Fig. 1: From AE-based neural codec to LotteryCodec.
-              </p>
-            </div>
+---
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+### 💡 Lottery Codec Hypothesis
+
+Let \( d \) denote a distortion function and \( H \) the entropy function.  
+For any overfitted image codec \( g_{\mathbf{W}}(\mathbf{z}) \),  
+there exists an over-parameterized and randomly initialized network \( g_{\mathbf{W'}} \)  
+with \( |\mathbf{W'}| > |\mathbf{W}| \) and a pair \( (\mathbf{\tau'}, \mathbf{z'}) \) as the “winning tickets”,  
+such that:
+
+\[
+d(\mathbf{S}, \mathbf{S}') \le d(\mathbf{S}, \mathbf{S}^*) \quad \text{and} \quad H(\hat{\mathbf{z}}') = H(\hat{\mathbf{z}})
+\]
+
+---
+
+<p align="center">
+  <img src="docs/Problem_formulation.png" alt="From AE to LotteryCodec" width="600"/>
+</p>
+
+<p align="center"><em>Fig. 1: From AE-based neural codec to LotteryCodec.</em></p>
+
 
 ![sicl](docs/SuperMask_fig_1.png)
 
