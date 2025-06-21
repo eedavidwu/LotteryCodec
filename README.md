@@ -1,10 +1,9 @@
-<p align="center">
-  <img src="docs/icon_dice.png" alt="Icon" width="100"/>
-</p>
-
-<h1 align="center">
-  LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression
-</h1>
+<table align="center">
+  <tr>
+    <td><img src="docs/icon_dice.png" alt="icon" width="40"/></td>
+    <td><h1>LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression</h1></td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://eedavidwu.github.io/">Haotian Wu</a>&nbsp;&nbsp;
