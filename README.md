@@ -37,12 +37,16 @@
 
 
 <p align="center">
-  <img src="docs/LCH.png" alt="From AE to LotteryCodec" width="1000"/>
+  <img src="docs/LCH.png" width="1000"/>
 </p>
 
 - To simplify the searching process and improve the performance, **LotteryCodec** employs a modulation-based new paradigm.
 
 ![sicl](docs/SuperMask_fig_1.png)
+
+<p align="center">
+  <img src="docs/Fig_3_masked_sys.png" width="1000"/>
+</p>
 
 ## About this code
 The Hypo3D codebase is written in Python and provides simple modules for benchmarking 10 Foundation models, including LLM, 2D VLMs, and 3D VLMs. The core module structure is as follows:
@@ -65,52 +69,8 @@ Hypo3D/
 
 ```
 
-### Download the Hypo3D Benchmark
-1. Clone the repository recursively.
-   ```
-   git clone --recursive https://github.com/MatchLab-Imperial/Hypo3D.git
-   ```
-3. Download 3D scene representations in Hypo3D dataset
-   ```
-   git clone https://huggingface.co/datasets/MatchLab/Hypo3D
-   mv Hypo3D dataset # rename dataset folder
-   cd dataset
-   ```
-   Expected data folder format:
-   ```
-    dataset/
-    ├── LLM_data/                                          # Scene captions for Large Language Models (e.g., LLama3.2)
-    ├── 2D_VLM_data/                                       # Scene Top-View Maps for 2D Vision-Language Models (e.g., GPT4o)
-    │   ├── top_view_no_label_rotated/                     # Non-semantic top-view map.
-    │   ├── top_view_with_label_rotated/                   # Semantic top-view map.
-    ├── 3D_VLM_data/                                       # 3D Scene Data for 3D Vision-Language Models (e.g., LLaVA-3D)
-  
-    ```
-### 📊 Hypo3D: EM (Exact Match) / PM (Partial Match) Accuracy of Foundation Models
-
-| Model Family                    | Model                  | EM (%) | PM (%) |
-|--------------------------------|------------------------|--------|--------|
-| **LLM (Scene Caption)**        | Llama-3.2 3B           | 26.08  | 29.91  |
-|                                | GPT-4o API (Text)      | **35.54**  | **39.65**  |
-| **2D VLM (Non-Semantic Map)**  | Qwen2-VL 7B            | 29.68  | 34.47  |
-|                                | Qwen2-VL 72B           | 33.39  | 37.51  |
-|                                | LLaVA-OV 7B            | 30.62  | 34.34  |
-|                                | LLaVA-OV 72B           | **36.38**  | **40.13**  |
-|                                | Claude 3.5 Sonnet API  | 20.70  | 30.12  |
-|                                | GPT-4o API             | 33.58  | 36.75  |
-| **2D VLM (Semantic Map)**      | Qwen2-VL 7B            | 34.40  | 38.91  |
-|                                | Qwen2-VL 72B           | 42.45  | 48.25  |
-|                                | LLaVA-OV 7B            | 38.93  | 43.51  |
-|                                | LLaVA-OV 72B           | 43.81  | 46.83  |
-|                                | Claude 3.5 Sonnet API  | 41.36  | 51.59  |
-|                                | GPT-4o API             | **45.50**  | **48.82**  |
-| **3D VLM (RGB-D Video/Point Cloud)**       | LEO 7B                 | 14.83  | 22.40  |
-|                                | LLaVA-3D 7B            | **31.56**  | **35.23**  |
-| **Human**                      |                        | 91.00  | 92.50  |
-
-
 ## Contact
-- Ye Mao: haotian.wu17@imperial.ac.uk
+- Haotian Wu: haotian.wu17@imperial.ac.uk
 
 Please open an issue or submit a pull request for issues, or contributions.
 
