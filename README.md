@@ -1,7 +1,7 @@
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
-                <img src="docs/static/hypo_icon.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:10px;">  LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression</h1>      
+                <img src="docs/icon_dice.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:10px;">  LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression</h1>      
 <p align='center' style="text-align:center;font-size:1.25em;">
-    <a href="https://eedavidwu.github.io/" target="_blank" style="text-decoration: none;">Haotian</a>,&nbsp;
+    <a href="https://eedavidwu.github.io/" target="_blank" style="text-decoration: none;">Haotian Wu</a>,&nbsp;
     <a href="https://gp-chen.github.io/" target="_blank" style="text-decoration: none;">Gongpu Chen</a>,&nbsp;
     <a href="https://www.commsp.ee.ic.ac.uk/~pld/" target="_blank" style="text-decoration: none;">Pier Luigi Dragotti</a>,&nbsp;
     <a href="https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/" target="_blank" style="text-decoration: none;">Deniz Gündüz</a>,&nbsp;<br/>
