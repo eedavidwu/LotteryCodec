@@ -1,18 +1,27 @@
-<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
-                <img src="docs/icon_dice.png" alt="Icon" style="width:60px; vertical-align:middle; margin-right:10px;">  LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression</h1>      
-<p align='center' style="text-align:center;font-size:1.25em;">
-    <a href="https://eedavidwu.github.io/" target="_blank" style="text-decoration: none;">Haotian Wu</a>,&nbsp;
-    <a href="https://gp-chen.github.io/" target="_blank" style="text-decoration: none;">Gongpu Chen</a>,&nbsp;
-    <a href="https://www.commsp.ee.ic.ac.uk/~pld/" target="_blank" style="text-decoration: none;">Pier Luigi Dragotti</a>,&nbsp;
-    <a href="https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/" target="_blank" style="text-decoration: none;">Deniz Gündüz</a>,&nbsp;<br/>
-&nbsp;<strong>Imperial College London</strong><br/>
+<p align="center">
+  <img src="docs/icon_dice.png" alt="LotteryCodec Icon" width="100"/>
+</p>
 
-<div align="center">
-  <a href="https://arxiv.org/" target="_blank" rel="external nofollow noopener">
-  <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
-  <a href="https://matchlab-imperial.github.io/Hypo3D/" target="_blank" rel="external nofollow noopener">
-  <img src="https://eedavidwu.github.io/LotteryCodec/" alt="Project Page"></a>
-</div>
+<h1 align="center">
+  LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression
+</h1>
+
+<p align="center">
+  <a href="https://eedavidwu.github.io/">Haotian Wu</a>&nbsp;&nbsp;
+  <a href="https://gp-chen.github.io/">Gongpu Chen</a>&nbsp;&nbsp;
+  <a href="https://www.commsp.ee.ic.ac.uk/~pld/">Pier Luigi Dragotti</a>&nbsp;&nbsp;
+  <a href="https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/">Deniz Gündüz</a>  
+  <br/>
+  <strong>Imperial College London</strong>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">
+    <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv">
+  </a>
+  <a href="https://eedavidwu.github.io/LotteryCodec/" target="_blank">
+    <img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page">
+  </a>
 </p>
 
 ## 📣 Latest Updates
