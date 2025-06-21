@@ -34,7 +34,7 @@
 - **LotteryCodec** introduces a novel overfitted codec for low-complexity image compression.  
   🧠 **Lottery Codec Hypothesis**: Given a *past* 3D scene (e.g., point cloud, top-view image, scene captions) and a **context change description**, the goal is to *imagine* the updated scene after the change and answer questions based on that **hypothetical** scene state.
 
-![sicl](docs/static/fig1.png)
+![sicl](docs/SuperMask_fig_1.png)
 
 ## About this code
 The Hypo3D codebase is written in Python and provides simple modules for benchmarking 10 Foundation models, including LLM, 2D VLMs, and 3D VLMs. The core module structure is as follows:
