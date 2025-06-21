@@ -33,6 +33,9 @@
 
 - **LotteryCodec** introduces a novel overfitted codec for low-complexity image compression.
 
+- **LotteryCodec** introduces a Lottery Codec Hypothesis.
+
+
 <p align="center">
   <img src="docs/LCH.png" alt="From AE to LotteryCodec" width="1000"/>
 </p>
@@ -43,6 +46,7 @@
 
 <p align="center"><em>Fig. 1: From AE-based neural codec to LotteryCodec.</em></p>
 
+- To simplify the searching process and improve the performance, **LotteryCodec** employs a modulation mechanism into the overfitted codec.
 
 ![sicl](docs/SuperMask_fig_1.png)
 
