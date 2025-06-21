@@ -37,16 +37,11 @@
 
 ### 💡 Lottery Codec Hypothesis
 
-Let \( d \) denote a distortion function and \( H \) the entropy function.  
-For any overfitted image codec \( g_{\mathbf{W}}(\mathbf{z}) \),  
-there exists an over-parameterized and randomly initialized network \( g_{\mathbf{W'}} \)  
-with \( |\mathbf{W'}| > |\mathbf{W}| \) and a pair \( (\mathbf{\tau'}, \mathbf{z'}) \) as the “winning tickets”,  
-such that:
+Let d(S, S') denote distortion and H(z) the entropy.  
+For any overfitted codec g_W(z), there exists a randomly initialized over-parameterized g_{W'}  
+and a pair (tau', z') such that:
 
-\[
-d(\mathbf{S}, \mathbf{S}') \le d(\mathbf{S}, \mathbf{S}^*) \quad \text{and} \quad H(\hat{\mathbf{z}}') = H(\hat{\mathbf{z}})
-\]
-
+d(S, S') ≤ d(S, S*) and H(z') = H(z)
 ---
 
 <p align="center">
