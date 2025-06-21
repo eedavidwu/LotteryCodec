@@ -34,15 +34,9 @@
 - **LotteryCodec** introduces a novel overfitted codec for low-complexity image compression.
 
 ---
-
-### 💡 Lottery Codec Hypothesis
-
-Let d(S, S') denote distortion and H(z) the entropy.  
-For any overfitted codec g_W(z), there exists a randomly initialized over-parameterized g_{W'}  
-and a pair (tau', z') such that:
-
-d(S, S') ≤ d(S, S*) and H(z') = H(z)
----
+<p align="center">
+  <img src="docs/LCH.png" alt="From AE to LotteryCodec" width="600"/>
+</p>
 
 <p align="center">
   <img src="docs/Problem_formulation.png" alt="From AE to LotteryCodec" width="600"/>
