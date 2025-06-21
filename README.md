@@ -4,7 +4,7 @@
     <a href="https://eedavidwu.github.io/" target="_blank" style="text-decoration: none;">Haotian</a>,&nbsp;
     <a href="https://gp-chen.github.io/" target="_blank" style="text-decoration: none;">Gongpu Chen</a>,&nbsp;
     <a href="https://www.commsp.ee.ic.ac.uk/~pld/" target="_blank" style="text-decoration: none;">Pier Luigi Dragotti</a>,&nbsp;
-    <a href="https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/" target="_blank" style="text-decoration: none;">Deniz Gündüz</a>,&nbsp;
+    <a href="https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/" target="_blank" style="text-decoration: none;">Deniz Gündüz</a>,&nbsp;<br/>
 &nbsp;<strong>Imperial College London</strong><br/>
 
 <div align="center">
@@ -18,11 +18,11 @@
 ## 📣 Latest Updates
 - **[2025-06-21]** 📝 *LotteryCodec paper preprint is now available on [arXiv](https://arxiv.org/abs/your-link).*
 - **[2025-06-21]** 📝 *Additional resources such as intermediate results, baseline code is now available on [arXiv](https://arxiv.org/abs/your-link).*
-- **[2025-06-01]** 🎉 *LotteryCodec has been accepted to ICML 2025 as a spotlight!*
+- **[2025-06-01]** 🎉 *LotteryCodec has been accepted to ICML 2025 as a **spotlight**!*
 
 ## 🔑 Key Takeaways
 
-- **Hypo3D** introduces a novel 3D reasoning benchmark.  
+- **LotteryCodec** introduces a novel 3D reasoning benchmark.  
   🧠 **Task Definition**: Given a *past* 3D scene (e.g., point cloud, top-view image, scene captions) and a **context change description**, the goal is to *imagine* the updated scene after the change and answer questions based on that **hypothetical** scene state.
 
 - The benchmark includes **7,727 context changes** and **14,885 QA pairs** spanning **700 indoor scenes**.  
@@ -77,8 +77,6 @@ Hypo3D/
     ├── 3D_VLM_data/                                       # 3D Scene Data for 3D Vision-Language Models (e.g., LLaVA-3D)
   
     ```
-5. Complete the [form](https://forms.gle/w6NCaDjY9FzdSZFEA) to download Hypo3D dataset
-
 ### 📊 Hypo3D: EM (Exact Match) / PM (Partial Match) Accuracy of Foundation Models
 
 | Model Family                    | Model                  | EM (%) | PM (%) |
@@ -103,7 +101,7 @@ Hypo3D/
 
 
 ## Contact
-- Ye Mao: ye.mao21@imperial.ac.uk
+- Ye Mao: haotian.wu17@imperial.ac.uk
 
 Please open an issue or submit a pull request for issues, or contributions.
 
@@ -115,14 +113,15 @@ Please open an issue or submit a pull request for issues, or contributions.
 
 ## Citation
 
-If you find our benchmark is helpful, please cite our paper:
+If you find our resource/idea is helpful, please cite our paper:
 
 ```
-@article{mao2025hypo3d,
-  title={Hypo3D: Exploring Hypothetical Reasoning in 3D},
-  author={Mao, Ye and Luo, Weixun and Jing, Junpeng and Qiu, Anlan and Mikolajczyk, Krystian},
-  journal={arXiv preprint arXiv:2502.00954},
-  year={2025}
-}
+  @article{LotteryCodec,
+    title={LotteryCodec: Searching the Implicit Representation in a Random Network for Low-Complexity Image Compression},
+    author={Haotian Wu, Gongpu Chen, Pier Luigi Dragotti, and Deniz Gündüz},
+    journal={International Conference on Machine Learning (ICML) 2025},
+    year={2025}
+  }
+
 ```
 
