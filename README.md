@@ -66,7 +66,7 @@ LotteryCodec/
 ├── train.py
 
 ```
-The code is heavily based on the Cool-Chic project, an outstanding open-source work. For additional resources and proper attribution, please refer to their project page:  <a href="https://github.com/Orange-OpenSource/Cool-Chic">Cool-Chic</a>  
+The code is heavily based on the Cool-Chic project, an outstanding open-source work :). For additional resources and attribution (such as engineering optimization), please refer to their project page:  <a href="https://github.com/Orange-OpenSource/Cool-Chic">Cool-Chic</a>  
 
 ## Contact
 - Haotian Wu: haotian.wu17@imperial.ac.uk
