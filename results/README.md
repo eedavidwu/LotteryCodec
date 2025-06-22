@@ -1,6 +1,4 @@
-# Here we provide a list of detailed results.
-
-By setting different decoding-complexity limitations, we search for different mask ratios to achieve optimal RD performance image by image.
+Here we provide a list of detailed results. By setting different decoding-complexity limitations, we search for different mask ratios to achieve optimal RD performance image by image.
 
 ## CLIC2020 dataset:
 
