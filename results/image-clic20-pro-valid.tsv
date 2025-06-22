@@ -1,4 +1,4 @@
-	1	2	3	4	5
-PSNR	1	2	3	4	5
-Rate	1	2	3	4	5
-complexity	10	10	10	10	10
+Lambda	       1e-2	5e-3	1e-3	2e-4	1e-4
+Complexity-budget	5000    5000    5000   5000
+PSNR	        1	2	3	4	5
+Rate	        1	2	3	4	5
