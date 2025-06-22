@@ -28,7 +28,7 @@
 -  **[2025-06-22]** 📝 *An optimized LotteryCodec result with more mask ratio selections is updated!*
 -  **[2025-06-22]** 📝 *LotteryCodec paper preprint is now available on [arXiv](https://openreview.net/pdf?id=9u5hPIcr6j).*
 -  **[2025-06-22]** 📝 *Resources, such as baseline implementations (VTM-19.1) with its datapoints are now updated on [resources](https://github.com/eedavidwu/LotteryCodec/blob/master/resource/README.md).*
-- **[2025-06-21]** 📝 *Detailed intermediate results (BD-rate vs decoding complexity) are now released on [results](https://github.com/eedavidwu/LotteryCodec/tree/master/results).*
+- **[2025-06-21]** 📝 *Detailed intermediate results are now released on [results](https://github.com/eedavidwu/LotteryCodec/tree/master/results).*
 - **[2025-06-01]** 🎉 *LotteryCodec has been accepted to **ICML 2025** as a **Spotlight**!*
 
 ## 🔑 Key Takeaways
