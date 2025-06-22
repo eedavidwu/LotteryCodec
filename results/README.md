@@ -2,18 +2,18 @@ Here we provide a list of detailed results. By setting different decoding-comple
 
 # CLIC2020 dataset:
 
-# Complexity-limitation: 5000 MACs/pixel
+## Complexity-limitation: 5000 MACs/pixel
 
-# RD points: 
+## RD points: 
 
 PSNR: [30.56621519298301, 32.085523511684976, 35.876295693616896, 39.62810604086702, 41.16616510538001], 
 
 bpp: [0.08464076691853839, 0.13313683742673937, 0.35204072122509156, 0.790818947236525, 1.08139899708752]
 
 
-# Complexity-limitation: 4500 MACs/pixel
+## Complexity-limitation: 4500 MACs/pixel
 
-# RD points: 
+## RD points: 
 
 PSNR: [30.56621519298301, 32.075542367462866, 35.86461639156513, 39.61115134313641, 41.15583353218882], 
 
