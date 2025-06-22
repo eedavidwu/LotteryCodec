@@ -1,6 +1,4 @@
-complexity	psnr	rate
-10	1	1
-10	2	2
-10	3	3
-10	4	4
-10	5	5
+	1	2	3	4	5
+PSNR	1	2	3	4	5
+Rate	1	2	3	4	5
+complexity	10	10	10	10	10
