@@ -71,7 +71,7 @@ LotteryCodec/
 The code is heavily based on the Cool-Chic project, an outstanding open-source work :). For additional resources and attribution (such as engineering optimization), please refer to their project page:  <a href="https://github.com/Orange-OpenSource/Cool-Chic">Cool-Chic</a>  
 
 ## Results:
-
+BD-rate vs. complexity (a) Kodak and (b).CLIC2020:
 <p align="center">
   <img src="docs/BD-rate_complex.png" width="1000"/>
 </p>
