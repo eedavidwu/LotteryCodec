@@ -2,7 +2,7 @@ Here we provide the VTM-19.1 implementations.
 Also, we provide some intermediate results for future investigations.
 Implement using compressai.
 
-def _run_impl(self, in_filepath, quality, mask_path):
+def run_impl(self, in_filepath, quality, mask_path):
         if not 0 <= quality <= 63:
             raise ValueError(f"Invalid quality value: {quality} (0,63)")
 
