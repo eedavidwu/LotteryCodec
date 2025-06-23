@@ -64,11 +64,17 @@ LotteryCodec/
 │   └── model.py                  
 ├── resource/                       # Resources for the baselines.
 ├── results            # Experimental results for various models.
-├── utils            # Code for sub-model and function such as quantization/ARM/...
+├── utils            # Code for sub-model and functions such as quantization/ARM/...
 ├── train.py
 
 ```
 The code is heavily based on the Cool-Chic project, an outstanding open-source work :). For additional resources and attribution (such as engineering optimization), please refer to their project page:  <a href="https://github.com/Orange-OpenSource/Cool-Chic">Cool-Chic</a>  
+
+## Results:
+
+<p align="center">
+  <img src="docs/BD-rate_complex.png" width="1000"/>
+</p>
 
 ## Contact
 - Haotian Wu: haotian.wu17@imperial.ac.uk
