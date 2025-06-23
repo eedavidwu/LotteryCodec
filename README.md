@@ -35,7 +35,7 @@
 
 - **LotteryCodec** introduces a novel overfitted codec for low-complexity image compression. Instead of training a synthesis neural function, LotteryCodec searches for a well-performing subnetwork within a randomly initialized network!
 
-- A **Lottery Codec Hypothesis** is introduced: Win a lottery ticket as your image codec!
+- A **Lottery Codec Hypothesis** is introduced: Win a lottery ticket as your own image codec!
 
 
 <p align="center">
