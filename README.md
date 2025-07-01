@@ -25,7 +25,7 @@
 </p>
 
 ## 📣 Latest Updates
--  **[2025-06-28]** 📝 *More results with various mask ratio selections are updated in [results](https://github.com/eedavidwu/LotteryCodec/tree/master/results), which is also provided in the updated [paper](https://arxiv.org/).*
+-  **[2025-06-28]** 📝 *More results with various mask ratio selections are updated in [results](https://github.com/eedavidwu/LotteryCodec/tree/master/results), which is also provided in the updated [paper](https://arxiv.org/). (Training CLIC2020 with more ratios costs lots of resources for us :) .)*
 -  **[2025-06-22]** 📝 *Resources, such as baseline implementations (VTM-19.1) with its datapoints are now updated on [resources](https://github.com/eedavidwu/LotteryCodec/blob/master/resource/README.md).*
 - **[2025-06-21]** 📝 *Detailed intermediate results are now released on [results](https://github.com/eedavidwu/LotteryCodec/tree/master/results).*
 - **[2025-06-01]** 🎉 *LotteryCodec has been accepted to **ICML 2025** as a **Spotlight**!*
@@ -70,12 +70,12 @@ LotteryCodec/
 The code is heavily based on the Cool-Chic project, an outstanding open-source work :). For additional resources and attribution (such as engineering optimization), please refer to their project page:  <a href="https://github.com/Orange-OpenSource/Cool-Chic">Cool-Chic</a>  
 
 ## Results:
-RD performance:
+A better RD performance:
 <p align="center">
   <img src="docs/RD_Kodak_CLIC.png" width="1000"/>
 </p>
 
-BD-rate vs. complexity (a) Kodak and (b).CLIC2020:
+Towards BD-rate vs. flexible complexity (a) Kodak and (b).CLIC2020:
 <p align="center">
   <img src="docs/BD-rate_com.png" width="1000"/>
 </p>
