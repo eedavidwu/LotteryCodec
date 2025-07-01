@@ -72,7 +72,7 @@ The code is heavily based on the Cool-Chic project, an outstanding open-source w
 ## Results:
 BD-rate vs. complexity (a) Kodak and (b).CLIC2020:
 <p align="center">
-  <img src="docs/BD-rate_complex.png" width="1000"/>
+  <img src="docs/BD-rate_com.png" width="1000"/>
 </p>
 
 ## Contact
