@@ -25,7 +25,7 @@
 </p>
 
 ## 📣 Latest Updates
--  **[2025-06-28]** 📝 *Updated LotteryCodec results with more mask ratio selections are updated! See [results](https://github.com/eedavidwu/LotteryCodec/tree/master/results), which is also povided in the updated paper*
+-  **[2025-06-28]** 📝 *Updated results with more mask ratio selections are updated! See [results](https://github.com/eedavidwu/LotteryCodec/tree/master/results), which is also provided in the updated paper*
 -  **[2025-06-22]** 📝 *LotteryCodec paper preprint is now available on [arXiv](https://openreview.net/pdf?id=9u5hPIcr6j).*
 -  **[2025-06-22]** 📝 *Resources, such as baseline implementations (VTM-19.1) with its datapoints are now updated on [resources](https://github.com/eedavidwu/LotteryCodec/blob/master/resource/README.md).*
 - **[2025-06-21]** 📝 *Detailed intermediate results are now released on [results](https://github.com/eedavidwu/LotteryCodec/tree/master/results).*
