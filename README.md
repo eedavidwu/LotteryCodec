@@ -72,7 +72,7 @@ The code is heavily based on the Cool-Chic project, an outstanding open-source w
 ## Results:
 RD performance:
 <p align="center">
-  <img src="docs/RD_Kodak_CLIC" width="1000"/>
+  <img src="docs/RD_Kodak_CLIC.png" width="1000"/>
 </p>
 
 BD-rate vs. complexity (a) Kodak and (b).CLIC2020:
