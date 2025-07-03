@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">
+  <a href="https://arxiv.org/pdf/2507.01204" target="_blank">
     <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv">
   </a>
   <a href="https://eedavidwu.github.io/LotteryCodec/" target="_blank">
